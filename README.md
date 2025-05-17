@@ -23,8 +23,18 @@ A lightweight AI-powered language detection web app powered by .NET 9 and [Ollam
 
 ## 🛠 Installation
 
-### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/your-username/LanguageDetector-AI.git
-cd LanguageDetector-AI
+# Clone the repository (change the URL if yours is different)
+git clone https://github.com/your-username/LanguageDetector-AI.git && \
+cd LanguageDetector-AI && \
+
+# Pull the gemma3 model using Ollama
+ollama pull gemma3 && \
+
+# Restore and build the .NET project
+dotnet restore && \
+dotnet build && \
+
+# Run the application
+dotnet run
+
