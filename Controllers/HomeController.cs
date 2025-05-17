@@ -17,20 +17,8 @@ namespace ChatbotAI.Controllers
         {
             return View();
         }
-        public IActionResult ChatGPT()
-        {
-            return View();
-        }
-        public IActionResult Ollama()
-        {
-            return View();
-        }
-        public IActionResult StreamOllama()
-        {
-            return View();
-        }
 
-        public IActionResult Privacy()
+        public IActionResult Detector()
         {
             return View();
         }
