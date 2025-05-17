@@ -1,6 +1,7 @@
 # LanguageDetector-AI 🧠🌐
 
 A lightweight AI-powered language detection web app powered by .NET 9 and [Ollama](https://ollama.com), utilizing the `gemma3` model for natural language processing.
+This AI will have you in term of learning english
 
 ---
 
